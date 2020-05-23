@@ -2,7 +2,7 @@
 
 lightweight php script to search & remove php files infected by malicious code such as eval.
 Script is searching recursively across sub-directories from folder where it is placed.
-Outputs list of potentially infected files with option to select which one to delete.
+Outputs list of potentially infected files with option to select which one to delete or ignore.
 Exits with 301 http error code is infected file found for use with cron.
 
 ```shell
